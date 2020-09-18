@@ -102,22 +102,6 @@ body #mainContainer #profileCard #cardBack #cardBackContent {
 body #mainContainer #profileCard #cardBack #cardBackContent .meContent {
   text-align: left;
 }
-body #mainContainer #profileCard #cardBack #cardBackContent .meContent .sideHeading {
-  transform: scaleX(0);
-}
-body #mainContainer #profileCard #cardBack #cardBackContent .meContent .sideHeading:hover {
-  border-bottom: 1px solid red;
-  transform: scale(1);
-  animation: underline 5s;
-}
-@keyframes underline {
-  from {
-    transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
-  }
-}
 body #mainContainer #profileCard #cardBack #cardBackContent #footer {
   position: absolute;
   bottom: 0;

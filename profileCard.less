@@ -6,9 +6,6 @@ body{
         height: 500px;
         perspective: 1200px;
         font-family: Georgia, serif;
-        // .rotateCard{
-        //     transform: rotateY(180deg);
-        // }
         #profileCard{
             padding: 10px;
             width: 90%;
@@ -103,22 +100,6 @@ body{
                     text-align: center;
                     .meContent{
                         text-align: left;
-                        .sideHeading{
-                            transform: scaleX(0);
-                            &:hover{
-                                border-bottom: 1px solid red;
-                                transform: scale(1);
-                                animation: underline 5s;
-                                @keyframes underline {
-                                    from{
-                                        transform: scaleX(0);
-                                    }
-                                    to{
-                                        transform: scaleX(1);
-                                    }
-                                }
-                            }
-                        }
                     }
                     #footer{
                         position: absolute;
@@ -126,7 +107,6 @@ body{
                         #connectText{
                             img{
                                 display: inline-block;
-                                //transform: rotate(180deg) translateY(-15px);
                                 animation: mouseDown 0.9s infinite;
                                 @keyframes mouseDown {
                                     from{
